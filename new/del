@@ -1,0 +1,4 @@
+echo -n "Give me that bastard File-: "
+read FILE
+rm -rf $FILE
+echo "Finished dude......"

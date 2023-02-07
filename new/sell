@@ -1,0 +1,6 @@
+echo Selling tonight
+echo -n "what to send? "
+read sender
+cp $sender /storage/BF98-14FB/zip/Codecanyon/new/$sender
+echo "Finished...."
+clear && ls

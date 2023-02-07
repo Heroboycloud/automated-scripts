@@ -1,0 +1,4 @@
+clear
+rm -rf ./.cache
+du -h -d 1
+echo "clean"

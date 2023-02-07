@@ -1,0 +1,8 @@
+echo "The crazy harp server with bootstrap"
+echo -n "Give us that  Web project directory-:  "
+read web
+echo "Ready to start now"
+cd $web
+echo "Get ready to visit your browser in 45 secs"
+harp server --port 9000
+echo "Server has started...."
